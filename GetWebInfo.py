@@ -2,12 +2,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-
-
-socialLinks=[]
-emails=[]
-
-
 url = 'https://ful.io'
 req = requests.get(url)
 
